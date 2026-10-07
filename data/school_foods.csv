@@ -1,0 +1,7 @@
+food,cost_brl_portion,energy_kcal,protein_g,fiber_g,calcium_mg,carbon_kgco2e,family_supplier
+arroz,0.40,64,1.3,0.3,4,0.030,0
+feijao,0.50,38,2.4,4.0,15,0.025,1
+frango,1.30,82,15.0,0.0,6,0.300,0
+abobora,0.25,15,0.5,1.0,7,0.015,1
+banana,0.20,45,0.5,0.6,3,0.020,1
+leite,0.55,30,1.5,0.0,60,0.100,1

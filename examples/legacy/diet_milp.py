@@ -4,7 +4,7 @@ import csv
 
 import pulp as pl
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 with (ROOT / "data" / "foods.csv").open(encoding="utf-8", newline="") as f:
     foods = list(csv.DictReader(f))
 

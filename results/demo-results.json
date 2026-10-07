@@ -1,0 +1,1136 @@
+{
+  "python": "3.14.4",
+  "seed": 2026,
+  "packages": {
+    "pulp": "3.3.2",
+    "networkx": "3.7",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pymoo": "0.6.2"
+  },
+  "data_sha256": {
+    "crops.csv": "82d9220ed94af195faa489a9893147b627f39dd7c25edf5e1c22818daacd86c2",
+    "foods.csv": "6fe135c7bdf76ffe53a1e1a2cf5ac9748cd8676cc056426ab087c354283f3708",
+    "school_foods.csv": "cc500c20d23d3a4b21aa6af04755b812545232fe1603010e91b8ac2d35549c32",
+    "van_stops.csv": "36c4dd0152c96441af39e5dc435bcd523ffd7f97f48b897dc9366476f0e3f744"
+  },
+  "routing": {
+    "exact5": {
+      "solver_status": "Optimal",
+      "seconds": 0.0287,
+      "certified_optimal": true,
+      "route": [
+        "garagem",
+        "aluno_03",
+        "aluno_01",
+        "aluno_02",
+        "aluno_04",
+        "aluno_05",
+        "IFCE"
+      ],
+      "feasible": true,
+      "km": 12.1557,
+      "arrival_minutes": 23.2336,
+      "lateness_minutes": 0.0,
+      "arrivals": [
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 2.7375
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 5.8383
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 11.2737
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 14.6867
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 17.329
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 23.2336
+        }
+      ],
+      "status": "Optimal"
+    },
+    "brute5_km": 12.1557,
+    "relaxed5": {
+      "solver_status": "Optimal",
+      "seconds": 0.0184,
+      "certified_optimal": true,
+      "route": null,
+      "feasible": false,
+      "status": "LP optimal",
+      "lower_bound_km": 12.103559999999998
+    },
+    "exact15": {
+      "solver_status": "Optimal",
+      "seconds": 1.3719,
+      "certified_optimal": true,
+      "route": [
+        "garagem",
+        "aluno_15",
+        "aluno_12",
+        "aluno_03",
+        "aluno_01",
+        "aluno_08",
+        "aluno_09",
+        "aluno_10",
+        "aluno_02",
+        "aluno_04",
+        "aluno_05",
+        "aluno_07",
+        "aluno_11",
+        "aluno_06",
+        "aluno_14",
+        "aluno_13",
+        "IFCE"
+      ],
+      "feasible": true,
+      "km": 19.8078,
+      "arrival_minutes": 44.7117,
+      "lateness_minutes": 0.0,
+      "arrivals": [
+        {
+          "stop": "aluno_15",
+          "arrival_minutes": 5.3531
+        },
+        {
+          "stop": "aluno_12",
+          "arrival_minutes": 9.3841
+        },
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 11.3747
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 14.4755
+        },
+        {
+          "stop": "aluno_08",
+          "arrival_minutes": 16.8478
+        },
+        {
+          "stop": "aluno_09",
+          "arrival_minutes": 19.7619
+        },
+        {
+          "stop": "aluno_10",
+          "arrival_minutes": 23.8129
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 25.4671
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 28.88
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 31.5223
+        },
+        {
+          "stop": "aluno_07",
+          "arrival_minutes": 32.934
+        },
+        {
+          "stop": "aluno_11",
+          "arrival_minutes": 34.8481
+        },
+        {
+          "stop": "aluno_06",
+          "arrival_minutes": 36.6291
+        },
+        {
+          "stop": "aluno_14",
+          "arrival_minutes": 39.4901
+        },
+        {
+          "stop": "aluno_13",
+          "arrival_minutes": 42.148
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 44.7117
+        }
+      ],
+      "status": "Optimal"
+    },
+    "exact15_windows": {
+      "solver_status": "Optimal",
+      "seconds": 4.8767,
+      "certified_optimal": false,
+      "route": [
+        "garagem",
+        "aluno_12",
+        "aluno_15",
+        "aluno_04",
+        "aluno_05",
+        "aluno_06",
+        "aluno_13",
+        "aluno_14",
+        "aluno_07",
+        "aluno_10",
+        "aluno_03",
+        "aluno_02",
+        "aluno_09",
+        "aluno_08",
+        "aluno_01",
+        "aluno_11",
+        "IFCE"
+      ],
+      "feasible": true,
+      "km": 35.0491,
+      "arrival_minutes": 68.9986,
+      "lateness_minutes": 0.0,
+      "arrivals": [
+        {
+          "stop": "aluno_12",
+          "arrival_minutes": 3.5204
+        },
+        {
+          "stop": "aluno_15",
+          "arrival_minutes": 7.5514
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 12.2377
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 14.88
+        },
+        {
+          "stop": "aluno_06",
+          "arrival_minutes": 17.6001
+        },
+        {
+          "stop": "aluno_13",
+          "arrival_minutes": 21.149
+        },
+        {
+          "stop": "aluno_14",
+          "arrival_minutes": 23.8068
+        },
+        {
+          "stop": "aluno_07",
+          "arrival_minutes": 27.9424
+        },
+        {
+          "stop": "aluno_10",
+          "arrival_minutes": 32.1493
+        },
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 40.0
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 47.0309
+        },
+        {
+          "stop": "aluno_09",
+          "arrival_minutes": 51.656
+        },
+        {
+          "stop": "aluno_08",
+          "arrival_minutes": 54.5701
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 56.9425
+        },
+        {
+          "stop": "aluno_11",
+          "arrival_minutes": 63.2062
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 68.9986
+        }
+      ],
+      "status": "Feasible, proof unfinished"
+    },
+    "heuristic15": {
+      "feasible": true,
+      "km": 21.1334,
+      "arrival_minutes": 46.7001,
+      "lateness_minutes": 0.0,
+      "arrivals": [
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 2.7375
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 5.8383
+        },
+        {
+          "stop": "aluno_09",
+          "arrival_minutes": 9.1959
+        },
+        {
+          "stop": "aluno_08",
+          "arrival_minutes": 12.1101
+        },
+        {
+          "stop": "aluno_12",
+          "arrival_minutes": 15.8428
+        },
+        {
+          "stop": "aluno_15",
+          "arrival_minutes": 19.8739
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 24.5601
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 27.2025
+        },
+        {
+          "stop": "aluno_07",
+          "arrival_minutes": 28.6141
+        },
+        {
+          "stop": "aluno_11",
+          "arrival_minutes": 30.5282
+        },
+        {
+          "stop": "aluno_10",
+          "arrival_minutes": 33.8784
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 35.5325
+        },
+        {
+          "stop": "aluno_06",
+          "arrival_minutes": 38.6175
+        },
+        {
+          "stop": "aluno_14",
+          "arrival_minutes": 41.4786
+        },
+        {
+          "stop": "aluno_13",
+          "arrival_minutes": 44.1364
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 46.7001
+        }
+      ],
+      "route": [
+        "garagem",
+        "aluno_03",
+        "aluno_01",
+        "aluno_09",
+        "aluno_08",
+        "aluno_12",
+        "aluno_15",
+        "aluno_04",
+        "aluno_05",
+        "aluno_07",
+        "aluno_11",
+        "aluno_10",
+        "aluno_02",
+        "aluno_06",
+        "aluno_14",
+        "aluno_13",
+        "IFCE"
+      ],
+      "nearest_neighbor_km": 22.2401,
+      "status": "Heuristic candidate",
+      "certified_optimal": false,
+      "seconds": 0.0076
+    },
+    "heuristic15_windows": {
+      "feasible": true,
+      "km": 25.1399,
+      "arrival_minutes": 61.6536,
+      "lateness_minutes": 0.0,
+      "arrivals": [
+        {
+          "stop": "aluno_15",
+          "arrival_minutes": 5.3531
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 10.6414
+        },
+        {
+          "stop": "aluno_07",
+          "arrival_minutes": 12.053
+        },
+        {
+          "stop": "aluno_13",
+          "arrival_minutes": 16.3471
+        },
+        {
+          "stop": "aluno_06",
+          "arrival_minutes": 19.8961
+        },
+        {
+          "stop": "aluno_11",
+          "arrival_minutes": 21.6772
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 23.8697
+        },
+        {
+          "stop": "aluno_12",
+          "arrival_minutes": 29.0656
+        },
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 40.0
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 43.1007
+        },
+        {
+          "stop": "aluno_08",
+          "arrival_minutes": 45.4731
+        },
+        {
+          "stop": "aluno_09",
+          "arrival_minutes": 48.3872
+        },
+        {
+          "stop": "aluno_10",
+          "arrival_minutes": 52.4382
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 54.0924
+        },
+        {
+          "stop": "aluno_14",
+          "arrival_minutes": 57.9325
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 61.6536
+        }
+      ],
+      "route": [
+        "garagem",
+        "aluno_15",
+        "aluno_05",
+        "aluno_07",
+        "aluno_13",
+        "aluno_06",
+        "aluno_11",
+        "aluno_04",
+        "aluno_12",
+        "aluno_03",
+        "aluno_01",
+        "aluno_08",
+        "aluno_09",
+        "aluno_10",
+        "aluno_02",
+        "aluno_14",
+        "IFCE"
+      ],
+      "nearest_neighbor_km": 22.2401,
+      "status": "Heuristic candidate",
+      "certified_optimal": false,
+      "seconds": 0.0089
+    },
+    "impossible": {
+      "solver_status": "Infeasible",
+      "seconds": 0.0263,
+      "certified_optimal": false,
+      "route": null,
+      "feasible": false,
+      "status": "Infeasible"
+    },
+    "traffic": {
+      "feasible": false,
+      "km": 25.1399,
+      "arrival_minutes": 82.8777,
+      "lateness_minutes": 34.4149,
+      "arrivals": [
+        {
+          "stop": "aluno_15",
+          "arrival_minutes": 9.6355
+        },
+        {
+          "stop": "aluno_05",
+          "arrival_minutes": 18.3545
+        },
+        {
+          "stop": "aluno_07",
+          "arrival_minutes": 20.0954
+        },
+        {
+          "stop": "aluno_13",
+          "arrival_minutes": 27.0249
+        },
+        {
+          "stop": "aluno_06",
+          "arrival_minutes": 32.613
+        },
+        {
+          "stop": "aluno_11",
+          "arrival_minutes": 35.0189
+        },
+        {
+          "stop": "aluno_04",
+          "arrival_minutes": 38.1654
+        },
+        {
+          "stop": "aluno_12",
+          "arrival_minutes": 46.7181
+        },
+        {
+          "stop": "aluno_03",
+          "arrival_minutes": 49.5012
+        },
+        {
+          "stop": "aluno_01",
+          "arrival_minutes": 54.2825
+        },
+        {
+          "stop": "aluno_08",
+          "arrival_minutes": 57.7527
+        },
+        {
+          "stop": "aluno_09",
+          "arrival_minutes": 62.1982
+        },
+        {
+          "stop": "aluno_10",
+          "arrival_minutes": 68.69
+        },
+        {
+          "stop": "aluno_02",
+          "arrival_minutes": 70.8675
+        },
+        {
+          "stop": "aluno_14",
+          "arrival_minutes": 76.9797
+        },
+        {
+          "stop": "IFCE",
+          "arrival_minutes": 82.8777
+        }
+      ]
+    }
+  },
+  "water": {
+    "normal": {
+      "status": "Optimal",
+      "feasible": true,
+      "areas_ha": {
+        "melao": 30.0,
+        "banana": 2.0,
+        "feijao": 5.9090909,
+        "milho": 4.0
+      },
+      "water_m3": 179999.99998,
+      "water_budget_m3": 180000,
+      "capital_brl": 220772.72725,
+      "profit_brl": 531545.4545,
+      "unmet_orders_ha": {
+        "melao": 0,
+        "banana": 0,
+        "feijao": 0,
+        "milho": 0
+      },
+      "rules_relaxed": false,
+      "variable_type": "Continuous"
+    },
+    "drought": {
+      "status": "Infeasible",
+      "feasible": false,
+      "minimum_water_for_orders": 49800.0
+    },
+    "flexible": {
+      "status": "Optimal",
+      "feasible": true,
+      "areas_ha": {
+        "melao": 2.0000002,
+        "banana": 0.911111,
+        "feijao": 4.0,
+        "milho": 4.0
+      },
+      "water_m3": 39999.9999,
+      "water_budget_m3": 40000,
+      "capital_brl": 40377.7782,
+      "profit_brl": 86755.557,
+      "unmet_orders_ha": {
+        "melao": 0,
+        "banana": 1.088889,
+        "feijao": 0,
+        "milho": 0
+      },
+      "rules_relaxed": true,
+      "variable_type": "Continuous"
+    },
+    "integer": {
+      "status": "Optimal",
+      "feasible": true,
+      "areas_ha": {
+        "melao": 30.0,
+        "banana": 2.0,
+        "feijao": 4.0,
+        "milho": 5.0
+      },
+      "water_m3": 179300.0,
+      "water_budget_m3": 180000,
+      "capital_brl": 219000.0,
+      "profit_brl": 528000.0,
+      "unmet_orders_ha": {
+        "melao": 0,
+        "banana": 0,
+        "feijao": 0,
+        "milho": 0
+      },
+      "rules_relaxed": false,
+      "variable_type": "Integer"
+    },
+    "tradeoff": [
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 2.0444444,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 49999.999800000005,
+        "water_budget_m3": 50000,
+        "capital_brl": 48266.6664,
+        "profit_brl": 102666.666,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": false,
+        "areas_ha": {
+          "melao": 4.2666667,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 60000.00015,
+        "water_budget_m3": 60000,
+        "capital_brl": 61600.000199999995,
+        "profit_brl": 136000.0005,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 6.4888889,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 70000.00005,
+        "water_budget_m3": 70000,
+        "capital_brl": 74933.3334,
+        "profit_brl": 169333.3335,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 8.7111111,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 79999.99995,
+        "water_budget_m3": 80000,
+        "capital_brl": 88266.6666,
+        "profit_brl": 202666.6665,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 10.933333,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 89999.99849999999,
+        "water_budget_m3": 90000,
+        "capital_brl": 101599.99799999999,
+        "profit_brl": 235999.995,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": false,
+        "areas_ha": {
+          "melao": 13.155556,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 100000.00200000001,
+        "water_budget_m3": 100000,
+        "capital_brl": 114933.33600000001,
+        "profit_brl": 269333.33999999997,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": false,
+        "areas_ha": {
+          "melao": 15.377778,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 110000.001,
+        "water_budget_m3": 110000,
+        "capital_brl": 128266.66799999999,
+        "profit_brl": 302666.67,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 17.6,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 120000.0,
+        "water_budget_m3": 120000,
+        "capital_brl": 141600.0,
+        "profit_brl": 336000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 19.822222,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 129999.999,
+        "water_budget_m3": 130000,
+        "capital_brl": 154933.332,
+        "profit_brl": 369333.33,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 22.044444,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 139999.998,
+        "water_budget_m3": 140000,
+        "capital_brl": 168266.664,
+        "profit_brl": 402666.66,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": false,
+        "areas_ha": {
+          "melao": 24.266667,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 150000.0015,
+        "water_budget_m3": 150000,
+        "capital_brl": 181600.002,
+        "profit_brl": 436000.005,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": false,
+        "areas_ha": {
+          "melao": 26.488889,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 160000.0005,
+        "water_budget_m3": 160000,
+        "capital_brl": 194933.334,
+        "profit_brl": 469333.335,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 28.711111,
+          "banana": 2.0,
+          "feijao": 4.0,
+          "milho": 4.0
+        },
+        "water_m3": 169999.99949999998,
+        "water_budget_m3": 170000,
+        "capital_brl": 208266.666,
+        "profit_brl": 502666.665,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 5.9090909,
+          "milho": 4.0
+        },
+        "water_m3": 179999.99998,
+        "water_budget_m3": 180000,
+        "capital_brl": 220772.72725,
+        "profit_brl": 531545.4545,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 10.454545,
+          "milho": 4.0
+        },
+        "water_m3": 189999.999,
+        "water_budget_m3": 190000,
+        "capital_brl": 232136.3625,
+        "profit_brl": 554272.725,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 15.0,
+          "milho": 4.0
+        },
+        "water_m3": 200000.0,
+        "water_budget_m3": 200000,
+        "capital_brl": 243500.0,
+        "profit_brl": 577000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 210000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 220000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 230000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 240000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 250000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      },
+      {
+        "status": "Optimal",
+        "feasible": true,
+        "areas_ha": {
+          "melao": 30.0,
+          "banana": 2.0,
+          "feijao": 17.6,
+          "milho": 4.0
+        },
+        "water_m3": 205720.0,
+        "water_budget_m3": 260000,
+        "capital_brl": 250000.0,
+        "profit_brl": 590000.0,
+        "unmet_orders_ha": {
+          "melao": 0,
+          "banana": 0,
+          "feijao": 0,
+          "milho": 0
+        },
+        "rules_relaxed": false,
+        "variable_type": "Continuous"
+      }
+    ]
+  },
+  "school": {
+    "milp": {
+      "feasible": true,
+      "portions": {
+        "arroz": 1,
+        "feijao": 2,
+        "frango": 1,
+        "abobora": 0,
+        "banana": 4,
+        "leite": 2
+      },
+      "cost_brl": 460.0,
+      "nutrition_deviation": 0.10946428571428574,
+      "family_spend_brl": 290.0,
+      "carbon_kgco2e": 66.0,
+      "family_fraction_fnde": 0.48333333333333334,
+      "nutrients": {
+        "energy_kcal": 462.0,
+        "protein_g": 26.1,
+        "fiber_g": 10.700000000000001,
+        "calcium_mg": 172.0
+      },
+      "status": "Optimal",
+      "certified_optimal": true
+    },
+    "reference": {
+      "enumerated": 15625,
+      "feasible": 507,
+      "nondominated": 150,
+      "minimum_cost": 460.0
+    },
+    "nsga2": {
+      "seed": 2026,
+      "generations": 80,
+      "solutions": 120,
+      "dominated_by_grid": 2,
+      "reference_objectives_covered": 118,
+      "all_audited_feasible": true
+    }
+  },
+  "slm": {
+    "status": "Prompt only; no local model inference performed"
+  }
+}
