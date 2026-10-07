@@ -1,0 +1,3 @@
+# Preserve the exact dataset bytes used by the archived SHA-256 report on all OSes.
+data/*.csv -text
+results/*.csv -text
