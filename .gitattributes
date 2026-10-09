@@ -1,3 +1,8 @@
 # Preserve the exact dataset bytes used by the archived SHA-256 report on all OSes.
 data/*.csv -text
 results/*.csv -text
+# Preserve byte hashes of executed notebooks/results across Windows checkouts.
+notebooks/*.ipynb -text whitespace=cr-at-eol
+results/sequence/*.json -text whitespace=cr-at-eol
+results/sequence/*.log -text -whitespace
+*.py text eol=lf

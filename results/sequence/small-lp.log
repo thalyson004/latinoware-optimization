@@ -1,0 +1,25 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - C:\Projetos\latinoware\codes\.venv\Lib\site-packages\pulp\apis\../solverdir/cbc/win/i64/cbc.exe C:\Users\thaly\AppData\Local\Temp\ca5f9cec2b254cb1b58dc62af50074bf-pulp.mps -max -sec 5 -randomSeed 2026 -randomCbcSeed 2026 -timeMode elapsed -solve -printingOptions all -solution C:\Users\thaly\AppData\Local\Temp\ca5f9cec2b254cb1b58dc62af50074bf-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 7 COLUMNS
+At line 26 RHS
+At line 29 BOUNDS
+At line 36 ENDATA
+Problem MODEL has 2 rows, 6 columns and 12 elements
+Coin0008I MODEL read with 0 errors
+seconds was changed from 1e+100 to 5
+randomSeed was changed from 1234567 to 2026
+randomCbcSeed was changed from -1 to 2026
+Option for timeMode changed from cpu to elapsed
+Presolve 2 (0) rows, 6 (0) columns and 12 (0) elements
+0  Obj -0 Dual inf 79.699999 (6)
+3  Obj 36.384615
+Optimal - objective value 36.384615
+Optimal objective 36.38461538 - 3 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+

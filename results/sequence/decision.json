@@ -1,0 +1,2286 @@
+{
+  "menus": [
+    {
+      "choice": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        15,
+        18,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 4.9,
+      "adequacy": 0.0,
+      "ultra": 0.0,
+      "indicators": [
+        16,
+        14,
+        11
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 32.558,
+      "indicators": [
+        14,
+        20,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.3,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        18,
+        17,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.2,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        19,
+        13,
+        11
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.1,
+      "adequacy": 33.33333333333333,
+      "ultra": 31.818,
+      "indicators": [
+        17,
+        19,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.2,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        14,
+        21,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 5.1,
+      "adequacy": 0.0,
+      "ultra": 36.842,
+      "indicators": [
+        15,
+        17,
+        11
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 4.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.333,
+      "indicators": [
+        13,
+        23,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.5,
+      "adequacy": 0.0,
+      "ultra": 0.0,
+      "indicators": [
+        16,
+        17,
+        9
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 5.4,
+      "adequacy": 0.0,
+      "ultra": 0.0,
+      "indicators": [
+        17,
+        13,
+        12
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 4.3,
+      "adequacy": 33.33333333333333,
+      "ultra": 32.558,
+      "indicators": [
+        15,
+        19,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        19,
+        16,
+        9
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        20,
+        12,
+        12
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.6,
+      "adequacy": 66.66666666666666,
+      "ultra": 31.818,
+      "indicators": [
+        18,
+        18,
+        7
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        15,
+        20,
+        9
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 5.6,
+      "adequacy": 0.0,
+      "ultra": 36.842,
+      "indicators": [
+        16,
+        16,
+        12
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 4.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.333,
+      "indicators": [
+        14,
+        22,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "ovo",
+        "banana"
+      ],
+      "cost": 3.8,
+      "adequacy": 0.0,
+      "ultra": 30.769,
+      "indicators": [
+        14,
+        14,
+        3
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 4.7,
+      "adequacy": 0.0,
+      "ultra": 34.286,
+      "indicators": [
+        15,
+        10,
+        6
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.6,
+      "adequacy": 0.0,
+      "ultra": 57.778,
+      "indicators": [
+        13,
+        16,
+        1
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.1,
+      "adequacy": 0.0,
+      "ultra": 30.0,
+      "indicators": [
+        17,
+        13,
+        3
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        18,
+        9,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        2,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 4.9,
+      "adequacy": 0.0,
+      "ultra": 56.522,
+      "indicators": [
+        16,
+        15,
+        1
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.0,
+      "adequacy": 0.0,
+      "ultra": 59.091,
+      "indicators": [
+        13,
+        17,
+        3
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 4.9,
+      "adequacy": 0.0,
+      "ultra": 65.0,
+      "indicators": [
+        14,
+        13,
+        6
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "embutido",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 3.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 80.0,
+      "indicators": [
+        12,
+        19,
+        1
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "banana"
+      ],
+      "cost": 3.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 28.947,
+      "indicators": [
+        14,
+        19,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 4.6,
+      "adequacy": 0.0,
+      "ultra": 32.353,
+      "indicators": [
+        15,
+        15,
+        10
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 56.818,
+      "indicators": [
+        13,
+        21,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 28.205,
+      "indicators": [
+        17,
+        18,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "frango",
+        "verduras"
+      ],
+      "cost": 5.9,
+      "adequacy": 33.33333333333333,
+      "ultra": 31.429,
+      "indicators": [
+        18,
+        14,
+        10
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 4.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 55.556,
+      "indicators": [
+        16,
+        20,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        2,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 3.9,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.14,
+      "indicators": [
+        13,
+        22,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 4.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 64.103,
+      "indicators": [
+        14,
+        18,
+        10
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        2,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 3.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 79.592,
+      "indicators": [
+        12,
+        24,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.2,
+      "adequacy": 33.33333333333333,
+      "ultra": 28.947,
+      "indicators": [
+        15,
+        18,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 5.1,
+      "adequacy": 0.0,
+      "ultra": 32.353,
+      "indicators": [
+        16,
+        14,
+        11
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 4.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 56.818,
+      "indicators": [
+        14,
+        20,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 28.205,
+      "indicators": [
+        18,
+        17,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.4,
+      "adequacy": 33.33333333333333,
+      "ultra": 31.429,
+      "indicators": [
+        19,
+        13,
+        11
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.3,
+      "adequacy": 33.33333333333333,
+      "ultra": 55.556,
+      "indicators": [
+        17,
+        19,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        2,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.4,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.14,
+      "indicators": [
+        14,
+        21,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 5.3,
+      "adequacy": 0.0,
+      "ultra": 64.103,
+      "indicators": [
+        15,
+        17,
+        11
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        1,
+        2,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "lentilha",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 4.2,
+      "adequacy": 33.33333333333333,
+      "ultra": 79.592,
+      "indicators": [
+        13,
+        23,
+        6
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        2,
+        0,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "ovo",
+        "banana"
+      ],
+      "cost": 3.5,
+      "adequacy": 0.0,
+      "ultra": 57.5,
+      "indicators": [
+        13,
+        15,
+        2
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 4.4,
+      "adequacy": 0.0,
+      "ultra": 63.889,
+      "indicators": [
+        14,
+        11,
+        5
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.3,
+      "adequacy": 0.0,
+      "ultra": 80.435,
+      "indicators": [
+        12,
+        17,
+        0
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "frango",
+        "banana"
+      ],
+      "cost": 4.8,
+      "adequacy": 0.0,
+      "ultra": 56.098,
+      "indicators": [
+        16,
+        14,
+        2
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "frango",
+        "verduras"
+      ],
+      "cost": 5.7,
+      "adequacy": 0.0,
+      "ultra": 62.162,
+      "indicators": [
+        17,
+        10,
+        5
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 4.6,
+      "adequacy": 0.0,
+      "ultra": 78.723,
+      "indicators": [
+        15,
+        16,
+        0
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        2,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 3.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 82.222,
+      "indicators": [
+        12,
+        18,
+        2
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        2,
+        2,
+        1
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 4.6,
+      "adequacy": 0.0,
+      "ultra": 90.244,
+      "indicators": [
+        13,
+        14,
+        5
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 100.0,
+      "indicators": [
+        11,
+        20,
+        0
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.7,
+      "adequacy": 0.0,
+      "ultra": 0.0,
+      "indicators": [
+        16,
+        17,
+        10
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        0,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 5.6,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        17,
+        13,
+        13
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 4.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 32.558,
+      "indicators": [
+        15,
+        19,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "frango",
+        "banana"
+      ],
+      "cost": 6.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        19,
+        16,
+        10
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.9,
+      "adequacy": 66.66666666666666,
+      "ultra": 0.0,
+      "indicators": [
+        20,
+        12,
+        13
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        2,
+        0,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.8,
+      "adequacy": 66.66666666666666,
+      "ultra": 31.818,
+      "indicators": [
+        18,
+        18,
+        8
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.9,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        15,
+        20,
+        10
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 5.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 36.842,
+      "indicators": [
+        16,
+        16,
+        13
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "feijao",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 4.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.333,
+      "indicators": [
+        14,
+        22,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "ovo",
+        "banana"
+      ],
+      "cost": 5.2,
+      "adequacy": 0.0,
+      "ultra": 0.0,
+      "indicators": [
+        17,
+        16,
+        11
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 6.1,
+      "adequacy": 66.66666666666666,
+      "ultra": 0.0,
+      "indicators": [
+        18,
+        12,
+        14
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        2,
+        1,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 5.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 32.558,
+      "indicators": [
+        16,
+        18,
+        9
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "frango",
+        "banana"
+      ],
+      "cost": 6.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        20,
+        15,
+        11
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "frango",
+        "verduras"
+      ],
+      "cost": 7.4,
+      "adequacy": 66.66666666666666,
+      "ultra": 0.0,
+      "indicators": [
+        21,
+        11,
+        14
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        2,
+        1,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 6.3,
+      "adequacy": 33.33333333333333,
+      "ultra": 31.818,
+      "indicators": [
+        19,
+        17,
+        9
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 5.4,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        16,
+        19,
+        11
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 6.3,
+      "adequacy": 33.33333333333333,
+      "ultra": 36.842,
+      "indicators": [
+        17,
+        15,
+        14
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 5.2,
+      "adequacy": 33.33333333333333,
+      "ultra": 58.333,
+      "indicators": [
+        15,
+        21,
+        9
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.5,
+      "adequacy": 0.0,
+      "ultra": 30.769,
+      "indicators": [
+        15,
+        13,
+        5
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 5.4,
+      "adequacy": 0.0,
+      "ultra": 34.286,
+      "indicators": [
+        16,
+        9,
+        8
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 4.3,
+      "adequacy": 0.0,
+      "ultra": 57.778,
+      "indicators": [
+        14,
+        15,
+        3
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        1,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "frango",
+        "banana"
+      ],
+      "cost": 5.8,
+      "adequacy": 33.33333333333333,
+      "ultra": 30.0,
+      "indicators": [
+        18,
+        12,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "frango",
+        "verduras"
+      ],
+      "cost": 6.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 33.333,
+      "indicators": [
+        19,
+        8,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.6,
+      "adequacy": 0.0,
+      "ultra": 56.522,
+      "indicators": [
+        17,
+        14,
+        3
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "nuggets",
+        "banana"
+      ],
+      "cost": 4.7,
+      "adequacy": 0.0,
+      "ultra": 59.091,
+      "indicators": [
+        14,
+        16,
+        5
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "nuggets",
+        "verduras"
+      ],
+      "cost": 5.6,
+      "adequacy": 0.0,
+      "ultra": 65.0,
+      "indicators": [
+        15,
+        12,
+        8
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "foods": [
+        "arroz integral",
+        "embutido",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 4.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 80.0,
+      "indicators": [
+        13,
+        18,
+        3
+      ],
+      "targets_met": 1
+    }
+  ],
+  "front2": [
+    {
+      "choice": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.6,
+      "adequacy": 66.66666666666666,
+      "ultra": 31.818,
+      "indicators": [
+        18,
+        18,
+        7
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 56.818,
+      "indicators": [
+        13,
+        21,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.3,
+      "adequacy": 0.0,
+      "ultra": 80.435,
+      "indicators": [
+        12,
+        17,
+        0
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "nuggets",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 100.0,
+      "indicators": [
+        11,
+        20,
+        0
+      ],
+      "targets_met": 1
+    }
+  ],
+  "front3": [
+    {
+      "choice": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "foods": [
+        "arroz",
+        "feijao",
+        "ovo",
+        "banana"
+      ],
+      "cost": 4.0,
+      "adequacy": 33.33333333333333,
+      "ultra": 0.0,
+      "indicators": [
+        15,
+        18,
+        8
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "foods": [
+        "arroz",
+        "lentilha",
+        "frango",
+        "sobremesa pronta"
+      ],
+      "cost": 5.6,
+      "adequacy": 66.66666666666666,
+      "ultra": 31.818,
+      "indicators": [
+        18,
+        18,
+        7
+      ],
+      "targets_met": 2
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "banana"
+      ],
+      "cost": 3.7,
+      "adequacy": 33.33333333333333,
+      "ultra": 28.947,
+      "indicators": [
+        14,
+        19,
+        7
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 56.818,
+      "indicators": [
+        13,
+        21,
+        5
+      ],
+      "targets_met": 1
+    },
+    {
+      "choice": [
+        1,
+        2,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "embutido",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.3,
+      "adequacy": 0.0,
+      "ultra": 80.435,
+      "indicators": [
+        12,
+        17,
+        0
+      ],
+      "targets_met": 0
+    },
+    {
+      "choice": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 6.1,
+      "adequacy": 66.66666666666666,
+      "ultra": 0.0,
+      "indicators": [
+        18,
+        12,
+        14
+      ],
+      "targets_met": 2
+    }
+  ],
+  "cost_priority": {
+    "menu": {
+      "choice": [
+        1,
+        0,
+        0,
+        2
+      ],
+      "foods": [
+        "macarrao instantaneo",
+        "feijao",
+        "ovo",
+        "sobremesa pronta"
+      ],
+      "cost": 3.5,
+      "adequacy": 33.33333333333333,
+      "ultra": 56.818,
+      "indicators": [
+        13,
+        21,
+        5
+      ],
+      "targets_met": 1
+    },
+    "score": 0.2206384036799901,
+    "weights": [
+      0.7,
+      0.2,
+      0.1
+    ],
+    "ideal": [
+      3.3,
+      33.33333333333334,
+      0.0
+    ],
+    "nadir": [
+      6.1,
+      100.0,
+      80.435
+    ],
+    "normalized": [
+      [
+        0.25000000000000006,
+        0.5,
+        0.0
+      ],
+      [
+        0.8214285714285714,
+        0.0,
+        0.3955740660160378
+      ],
+      [
+        0.142857142857143,
+        0.5,
+        0.35988064897121896
+      ],
+      [
+        0.0714285714285715,
+        0.5,
+        0.7063840367999005
+      ],
+      [
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "scores": [
+      0.275,
+      0.6145574066016037,
+      0.23598806489712199,
+      0.2206384036799901,
+      0.30000000000000004,
+      0.7
+    ]
+  },
+  "health_priority": {
+    "menu": {
+      "choice": [
+        2,
+        1,
+        0,
+        1
+      ],
+      "foods": [
+        "arroz integral",
+        "lentilha",
+        "ovo",
+        "verduras"
+      ],
+      "cost": 6.1,
+      "adequacy": 66.66666666666666,
+      "ultra": 0.0,
+      "indicators": [
+        18,
+        12,
+        14
+      ],
+      "targets_met": 2
+    },
+    "score": 0.1,
+    "weights": [
+      0.1,
+      0.7,
+      0.2
+    ],
+    "ideal": [
+      3.3,
+      33.33333333333334,
+      0.0
+    ],
+    "nadir": [
+      6.1,
+      100.0,
+      80.435
+    ],
+    "normalized": [
+      [
+        0.25000000000000006,
+        0.5,
+        0.0
+      ],
+      [
+        0.8214285714285714,
+        0.0,
+        0.3955740660160378
+      ],
+      [
+        0.142857142857143,
+        0.5,
+        0.35988064897121896
+      ],
+      [
+        0.0714285714285715,
+        0.5,
+        0.7063840367999005
+      ],
+      [
+        0.0,
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "scores": [
+      0.375,
+      0.1612576703460647,
+      0.43626184407995805,
+      0.49841966450283726,
+      0.8999999999999999,
+      0.1
+    ]
+  },
+  "aspiration": {
+    "choice": [
+      0,
+      1,
+      1,
+      2
+    ],
+    "foods": [
+      "arroz",
+      "lentilha",
+      "frango",
+      "sobremesa pronta"
+    ],
+    "cost": 5.6,
+    "adequacy": 66.66666666666666,
+    "ultra": 31.818,
+    "indicators": [
+      18,
+      18,
+      7
+    ],
+    "targets_met": 2
+  }
+}

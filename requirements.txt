@@ -3,3 +3,6 @@ networkx>=3.2,<4
 numpy>=1.26,<3
 matplotlib>=3.8,<4
 pymoo>=0.6,<0.7
+nbformat>=5,<6
+nbclient>=0.10,<1
+ipykernel>=6,<8

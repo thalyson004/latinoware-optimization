@@ -1,0 +1,13 @@
+{
+  "objective": 36.0,
+  "x": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1
+  ],
+  "configurations": 64,
+  "feasible_count": 42
+}

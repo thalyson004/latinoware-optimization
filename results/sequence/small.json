@@ -1,0 +1,36 @@
+{
+  "status": "Ótimo certificado",
+  "solver_status": "Optimal",
+  "solution_status": "Optimal Solution Found",
+  "certified": true,
+  "feasible": true,
+  "objective": 36.0,
+  "x": [
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "seconds": 0.0163,
+  "time_limit": 5,
+  "fractional_variables": 0,
+  "log_summary": [
+    "Result - Optimal solution found",
+    "Objective value:                36.00000000",
+    "Time (Wallclock seconds):       0.00"
+  ],
+  "audit": {
+    "feasible": true,
+    "objective": 36.0,
+    "used": [
+      15.0,
+      11.0
+    ],
+    "capacity": [
+      15.0,
+      12.0
+    ]
+  }
+}

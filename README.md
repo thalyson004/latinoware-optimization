@@ -4,7 +4,7 @@ Código da palestra **Como Formular e Resolver Problemas Complexos**, 60 minutos
 
 ## Instalação
 
-Python 3.11 ou superior; execução registrada com Python 3.14, PuLP/CBC, NetworkX e pymoo. As versões exatas e hashes dos dados estão em [results/demo-results.json](results/demo-results.json); dependências resolvidas em `requirements.lock.txt`.
+Python 3.11 ou superior para as dependências abertas; execução arquivada/lock com Python 3.14. Versões e hashes dos notebooks em [results/sequence/execution.json](results/sequence/execution.json). Resultados do roteiro anterior: [results/demo-results.json](results/demo-results.json). Para reconstruir o ambiente arquivado, use Python 3.14 e `requirements.lock.txt`.
 
 ```powershell
 python -m venv .venv
@@ -12,7 +12,36 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-## Exemplos do roteiro atual
+## Notebooks do roteiro atual
+
+| Notebook | Conteúdo |
+|---|---|
+| [01_problemas.ipynb](notebooks/01_problemas.ipynb) | if/else, menor caminho e hipótese de enumeração de rotas |
+| [02_formulacao.ipynb](notebooks/02_formulacao.ipynb) | Seis kits: variáveis, objetivo, restrições e enumeração |
+| [03_solver_e_limites.ipynb](notebooks/03_solver_e_limites.ipynb) | CBC no caso pequeno e limite de tempo no estresse |
+| [04_relaxamentos.ipynb](notebooks/04_relaxamentos.ipynb) | Limite LP, arredondamento e meta inviável flexibilizada |
+| [05_algoritmo_genetico.ipynb](notebooks/05_algoritmo_genetico.ipynb) | Operadores, reparo, elitismo, saída e evolução da prioridade |
+| [06_pareto_e_decisao.ipynb](notebooks/06_pareto_e_decisao.ipynb) | 81 menus, Pareto 2D/3D, pesos e metas de aspiração |
+
+Todos têm células e outputs de execução real. Abra no Jupyter/VS Code e selecione o Python da `.venv`. Reconstrução completa, da raiz de `codes`:
+
+```powershell
+python tools/build_talk_notebooks.py
+python tools/export_sequence_slides.py --presentation ../presentation
+```
+
+O primeiro script executa os notebooks com um kernel temporário ligado ao mesmo interpretador. O segundo copia figuras, macros numéricas e resumo do log real para o LaTeX. `--generate-only` gera notebooks sem outputs e não produz a entrega executada. Ao reexecutar, confira se o caso de estresse voltou a encerrar sem certificado antes de narrá-lo dessa forma.
+
+### Dados e interpretação dos exemplos novos
+
+- Kits: coeficientes sintéticos em `optimization_examples/selection.py`. Seis itens/duas capacidades; estresse de 250 itens/dez recursos artificiais, semente 2026. Prioridade não é impacto social medido. CBC padrão, sem threads adicionais; conferir `sol_status`, log e capacidades.
+- Caso pequeno: solver e 64 configurações enumeradas concordam em prioridade 36; LP fornece limite superior 36,384615. Exigir prioridade mínima 50 é inviável; flexibilizá-la dá déficit 14, preservando capacidades.
+- Estresse arquivado: CBC para no limite de 0,3 s com prioridade 5646; LP fornece 5681,626235; construção gulosa 5453 e AG 5621. AG: população 50/30 gerações. Uma execução, orçamentos diferentes; não é benchmark estatístico.
+- AG: bits, torneio, cruzamento uniforme, mutação, reparo e elitismo. O reparo garante capacidades neste modelo de limites superiores positivos; não é um reparador universal.
+- Cardápios: 81 combinações, três alvos inventados, nenhuma com 100% de adequação. Adequação é a fração de alvos atingidos; UP é participação em energia fictícia. Fronteira exata apenas da grade: quatro cardápios em 2D, seis em 3D. Sem TBCA, recomendação alimentar ou conformidade integral com PNAE.
+- Decisão: normalizar custo, déficit de adequação e UP pelos extremos dos seis candidatos. Pesos (0,7;0,2;0,1) escolhem custo 3,50/adequação 33,3%/UP 56,8%; pesos (0,1;0,7;0,2) escolhem 6,10/66,7%/0%. Filtro de orçamento 6 e dois alvos, seguido de menor UP: 5,60/66,7%/31,8%.
+
+## Exemplos complementares do roteiro anterior
 
 Execute da raiz deste repositório:
 
