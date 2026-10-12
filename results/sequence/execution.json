@@ -11,7 +11,7 @@
     "nbclient": "0.11.0"
   },
   "notebooks": {
-    "01_problemas.ipynb": "d567920d8197d00a5c01e0bfcfe39d1ffead7d23895a5233e79ab56c853c4d95",
+    "01_problemas.ipynb": "f9073af04c9757bb1e5336470cfc12234f20886627cec907f1a5b7269194ddc3",
     "02_formulacao.ipynb": "3a538a0251470664ef15401128a01860b8e7061b06e08462d4c5aabf6888edb5",
     "03_solver_e_limites.ipynb": "d31d90dffc8a02c4473eb8c7b7789e64d973054f388fab623e4f4eb501687cb5",
     "04_relaxamentos.ipynb": "58ad20355737b4327d3215c3ecb14233a3fdfa5e97ea4838d730d30ea43360cd",
@@ -21,8 +21,22 @@
   "source_sha256": {
     "optimization_examples\\selection.py": "4b1be5751a782c2c1a868c4216f0b83730332c4696811d12866eb5c28893d3fe",
     "optimization_examples\\menu_decision.py": "2c66633252192dba1863db26ee3a20fb3d8cb92623aecc0ba452e67288e9b273",
-    "tools\\build_talk_notebooks.py": "bb4c8c4043edeacb7f7f48992eeb430d22f4ce5e1ddeab21d1819135b46391a8"
+    "tools\\build_talk_notebooks.py": "a57d4baf88a8fd15930557d599149d1968607422f9691d36607531c9a314f6ee"
   },
   "data_status": "Synthetic; no TBCA data or derived fixtures",
-  "timing_scope": "One execution; solver time limits and elapsed times differ; hardware dependent"
+  "timing_scope": "One execution; solver time limits and elapsed times differ; hardware dependent",
+  "partial_execution_updates": [
+    {
+      "date": "2026-10-12",
+      "notebook": "01_problemas.ipynb",
+      "reason": "Generic school destination; identical graph edges/weights and shortest distance.",
+      "before_sha256": "d567920d8197d00a5c01e0bfcfe39d1ffead7d23895a5233e79ab56c853c4d95",
+      "after_sha256": "f9073af04c9757bb1e5336470cfc12234f20886627cec907f1a5b7269194ddc3",
+      "python": "3.14.4",
+      "solver_and_menu_notebooks_rerun": false,
+      "generator_source_before_sha256": "bb4c8c4043edeacb7f7f48992eeb430d22f4ce5e1ddeab21d1819135b46391a8",
+      "generator_source_after_sha256": "a57d4baf88a8fd15930557d599149d1968607422f9691d36607531c9a314f6ee",
+      "other_result_notebook_hashes_unchanged": true
+    }
+  ]
 }

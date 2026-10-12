@@ -49,10 +49,10 @@ NOTEBOOKS = [
 ('md', 'Uma regra if/else seleciona uma ação. Dijkstra resolve exatamente o menor caminho com pesos não negativos. Nem todo problema combinatório é NP-difícil.'),
 ('code', """import networkx as nx
 grafo = nx.Graph()
-grafo.add_weighted_edges_from([('Casa','A',2),('A','IFCE',3),('Casa','B',1),('B','IFCE',7)])
+grafo.add_weighted_edges_from([('Casa','A',2),('A','Escola',3),('Casa','B',1),('B','Escola',7)])
 print('Regra:', 'sair agora' if 18 < 19 else 'aula iniciou')
-print('Menor caminho:', nx.shortest_path(grafo, 'Casa', 'IFCE', weight='weight'))
-print('Distância:', nx.shortest_path_length(grafo, 'Casa', 'IFCE', weight='weight'))"""),
+print('Menor caminho:', nx.shortest_path(grafo, 'Casa', 'Escola', weight='weight'))
+print('Distância:', nx.shortest_path_length(grafo, 'Casa', 'Escola', weight='weight'))"""),
 ('md', 'Com garagem e destino fixos, a ordem de n visitas tem n! possibilidades. A tabela abaixo SUPÕE 1 milhão de rotas completas avaliadas por segundo: não é benchmark de solver. P versus NP permanece aberto.'),
 ('code', """import math
 tabela = []

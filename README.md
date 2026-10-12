@@ -16,14 +16,14 @@ python -m pip install -r requirements.txt
 
 | Notebook | Conteúdo |
 |---|---|
-| [01_problemas.ipynb](notebooks/01_problemas.ipynb) | if/else, menor caminho e hipótese de enumeração de rotas |
+| [01_problemas.ipynb](notebooks/01_problemas.ipynb) | if/else, menor caminho casa–escola e hipótese de enumeração de rotas |
 | [02_formulacao.ipynb](notebooks/02_formulacao.ipynb) | Seis kits: variáveis, objetivo, restrições e enumeração |
 | [03_solver_e_limites.ipynb](notebooks/03_solver_e_limites.ipynb) | CBC no caso pequeno e limite de tempo no estresse |
 | [04_relaxamentos.ipynb](notebooks/04_relaxamentos.ipynb) | Limite LP, arredondamento e meta inviável flexibilizada |
 | [05_algoritmo_genetico.ipynb](notebooks/05_algoritmo_genetico.ipynb) | Operadores, reparo, elitismo, saída e evolução da prioridade |
 | [06_pareto_e_decisao.ipynb](notebooks/06_pareto_e_decisao.ipynb) | 81 menus, Pareto 2D/3D, pesos e metas de aspiração |
 
-Todos têm células e outputs de execução real. Abra no Jupyter/VS Code e selecione o Python da `.venv`. Reconstrução completa, da raiz de `codes`:
+Todos têm células e outputs de execução real. Em 12/10/2026, somente o notebook 01 foi reexecutado para usar o destino genérico Escola; distância e pesos são os mesmos. O evento parcial e os hashes atualizados estão em `results/sequence/execution.json`. Os resultados de solver, relaxação, algoritmo genético e cardápios permanecem na execução anterior. Abra no Jupyter/VS Code e selecione o Python da `.venv`. Reconstrução completa, da raiz de `codes`:
 
 ```powershell
 python tools/build_talk_notebooks.py
